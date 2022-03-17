@@ -1,0 +1,31 @@
+baseurl: https://example.com/
+languageCode: en-us
+theme: hugo-theme-terminal
+paginate: 5
+params:
+  centerTheme: no
+  contentTypeName: posts
+  fullWidthTheme: no
+  showMenuItems: 2
+  themeColor: orange
+languages:
+  en:
+    copyright: ''
+    keywords: ''
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: showcase
+          name: Showcase
+          url: /showcase
+    menuMore: Show more
+    params:
+      logo:
+        logoHomeLink: /
+        logoText: Terminal
+    readMore: Read more
+    readOtherPosts: Read other posts
+    subtitle: A simple, retro theme for Hugo
+    title: Terminal
